@@ -7,7 +7,7 @@ function howILikeToEat (fruits) {
     let sentence2 = fruits.join(", ") + " I only eat that once a week.";
     let sentence3 = fruits.join(", ") + " I do not eat";
     
-    if (fruits.includes("apples") || fruits.includes("mango")) {
+    if (fruits.includes("cherries") || fruits.includes("dragonfruits")) {
         return sentence1;
     }
     
@@ -20,6 +20,6 @@ function howILikeToEat (fruits) {
     }
 }
 
-document.write(howILikeToEat(['apples','mango']) + '<br>');
+document.write(howILikeToEat(['cherries','dragonfruits']) + '<br>');
 document.write(howILikeToEat(['dorado','beaf','tofu']) + '<br>');
 document.write(howILikeToEat(['computer']) + '<br>');
